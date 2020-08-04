@@ -25,7 +25,7 @@ function App() {
   return (
     <AppDiv>
       <AppHeader>
-        <P className="text-purple-500">React App Rewired</P>
+        <P>React App Rewired</P>
       </AppHeader>
     </AppDiv>
   );
