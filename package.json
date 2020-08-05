@@ -34,7 +34,7 @@
     "start": "yarn tailwind:css && yarn react-app-rewired start",
     "build": "yarn tailwind:css && yarn react-app-rewired build",
     "test": "yarn tailwind:css && yarn react-app-rewired test",
-    "tailwind:css": "postcss build src/css/tailwind.css -c tailwind.config.js -o src/css/index.css",
+    "tailwind:css": "postcss build src/css/tailwind.css -c src/tailwind.config.js -o src/css/index.css",
     "eject": "yarn react-app-rewired eject"
   },
   "eslintConfig": {
